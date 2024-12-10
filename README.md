@@ -1,0 +1,3 @@
+# React Native FlatList Crash with Large Datasets
+
+This repository demonstrates a common issue in React Native: crashes or unresponsiveness when using `FlatList` with large datasets. The problem stems from inefficient rendering and memory management.  The `bug.js` file shows the problematic code, while `bugSolution.js` provides a solution using `windowSize` and `initialNumToRender` for improved performance.
